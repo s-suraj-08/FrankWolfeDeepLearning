@@ -14,6 +14,8 @@ DFW algorithm provides a much smoother loss curve when used for finetuning.
 
 For further details and in-depth analysis, please check out the "Report_and_findings.pdf" file attached in the repo.
 
+The only requirements to run the repo are torch and torchvision. To replicate the experiments and results, use the "Experiments.ipynb" file.
+
 ## References
 1. A. Z. Leonard Berrada and M. P. Kumar, “Deep frank-wolfe for neural network optimization,” 2019.
 2. Sebastian Pokutta, Christoph Spiegel and Max Zimmer, "Deep Neural Network Training with Frank-Wolfe", 2020.

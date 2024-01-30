@@ -2,7 +2,7 @@
 Deep Frank-Wolfe(DFW) algorithm, is an extension of the classical Frank-Wolfe algorithm designed for solving optimization problems, particularly in the context of training neural networks with linear constraints. Traditional Frank-Wolfe is computationally more
 computationally more expensive than SGD, so a variant, ”Deep Frank-Wolfe” (DFW) with computational efficiency similar to SGD was proposed by the authors of [1]. The purpose of the study is to test the generalization capacity of the models trained using the proposed DFW algorithm.
 
-Trained and tested model with different optimization schemes undee the below mentioned paradigm.
+Experimented and evaluated models using different optimization schemes under the below mentioned paradigm.
 - Tested the claims by the authors regarding higher learning rates leading to better generalization were tested.
 - Tested the behavior under varying regularization parameter settings.
 - Behavior against finetuning of pretrained models (VGG11).

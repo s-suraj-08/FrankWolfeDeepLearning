@@ -8,13 +8,7 @@ A simple CNN model was designed and tested against different datasets like MNIST
 - Behavior against finetuning of pretrained models (VGG11).
 - Teseted the capacity to produce models that work well under a transfer learning setting.
 
-DFW algorithm provides a much smoother loss curve when used for finetuning.
-
-![SGD VS DFW Finetuning behavior](assets/sgd_vsdw_finetune.png)
-
-For further details and in-depth analysis, please check out the "Report_and_findings.pdf" file attached in the repo.
-
-The only requirements to run the repo are torch and torchvision. To replicate the experiments and results, use the "Experiments.ipynb" file.
+For further details and in-depth analysis, please check out the "Report_and_findings.pdf" file attached in the repo. To run the repo install torch and torchvision. To replicate the experiments and results, use the "Experiments.ipynb" file.
 
 ## References
 1. A. Z. Leonard Berrada and M. P. Kumar, “Deep frank-wolfe for neural network optimization,” 2019.
